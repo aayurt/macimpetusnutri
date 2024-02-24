@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ThemeContext } from '../../App';
 function Navbar() {
   const { darkTheme, toggleTheme } = useContext(ThemeContext);
-  const [toggleMenuButton, setToggleMenuButton] = useState(false);
+  const [toggleMenuButton, setToggleMenuButton] = useState(true);
   return (
     <div>
       <nav>
