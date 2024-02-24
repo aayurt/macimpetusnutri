@@ -4,6 +4,15 @@
 .novaSquare {
   font-family: 'Nova Square', cursive;
 }
+.prose {
+  h1,
+  h2,
+  h3,
+  h4,
+  a {
+    color: black;
+  }
+}
 .dark {
   .prose {
     h1,
