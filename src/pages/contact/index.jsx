@@ -48,7 +48,7 @@ function Contact() {
               name='name'
               value={formData.name}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
+              className={`border dark:border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
               required
             />
           </div>
@@ -62,7 +62,7 @@ function Contact() {
               name='email'
               value={formData.email}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
+              className={`border dark:border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
               required
             />
           </div>
@@ -76,7 +76,7 @@ function Contact() {
               name='subject'
               value={formData.subject}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
+              className={`border dark:border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
               required
             />
           </div>
@@ -89,7 +89,7 @@ function Contact() {
               name='message'
               value={formData.message}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full h-32 bg-white dark:bg-gray-800 dark:text-white`}
+              className={`border dark:border-gray-300 rounded-lg px-4 py-2 w-full h-32 bg-white dark:bg-gray-800 dark:text-white`}
               required
             ></textarea>
           </div>
