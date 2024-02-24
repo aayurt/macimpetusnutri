@@ -48,7 +48,7 @@ function Contact() {
               name='name'
               value={formData.name}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full dark:bg-gray-800 dark:text-white`}
+              className={`border border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
               required
             />
           </div>
@@ -62,7 +62,7 @@ function Contact() {
               name='email'
               value={formData.email}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full dark:bg-gray-800 dark:text-white`}
+              className={`border border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
               required
             />
           </div>
@@ -76,7 +76,7 @@ function Contact() {
               name='subject'
               value={formData.subject}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full dark:bg-gray-800 dark:text-white`}
+              className={`border border-gray-300 rounded-lg px-4 py-2 w-full bg-white dark:bg-gray-800 dark:text-white`}
               required
             />
           </div>
@@ -89,13 +89,13 @@ function Contact() {
               name='message'
               value={formData.message}
               onChange={handleChange}
-              className={`border border-gray-300 rounded-lg px-4 py-2 w-full h-32 dark:bg-gray-800 dark:text-white`}
+              className={`border border-gray-300 rounded-lg px-4 py-2 w-full h-32 bg-white dark:bg-gray-800 dark:text-white`}
               required
             ></textarea>
           </div>
           <button
             type='submit'
-            className={`bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg dark:bg-gray-800`}
+            className={`bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg bg-white dark:bg-gray-800`}
           >
             Submit
           </button>
