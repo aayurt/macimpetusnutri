@@ -32,8 +32,8 @@ jobs:
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            cd /home/koselikh/macimpetusnutri.aayurtshrestha.com.np
-            rm -rf /home/koselikh/macimpetusnutri.aayurtshrestha.com.np/*
+            cd /home/koselikh/macimpetus.com
+            rm -rf /home/koselikh/macimpetus.com/*
 
       - name: Deploy to server test 1
         uses: appleboy/scp-action@master
@@ -45,4 +45,4 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           strip_components: 1
           source: dist/*
-          target: /home/koselikh/macimpetusnutri.aayurtshrestha.com.np
+          target: /home/koselikh/macimpetus.com
