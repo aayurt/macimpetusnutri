@@ -19,7 +19,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, email, subject, message } = formData;
-    const mailtoLink = `mailto:myron@example.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:contact@macimpetus.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
